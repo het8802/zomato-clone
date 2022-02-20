@@ -1,5 +1,5 @@
 * {
-    font-family: Avenir;
+    font-family: Okra, Avenir;
     /* display: flex; */
 }
 
@@ -50,7 +50,11 @@
     margin-bottom: 50px
 }
 .showcase .text-display h2 {
-    font-size: 2em;
+    font-size: 2.3em;
+    font-style: italic;
+    /* font-family: sans-serif; */
+    font-weight: 700;
+    margin: 37px;
 }
 
 .input-flex {
@@ -230,22 +234,35 @@
     align-items:center;
 }
 
-div.container {
+div.localities {
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
-.container h1 {
+.localities h1 {
     position: relative;
     text-align: center;
+    font-weight: 400;
 }
 
-.container p {
+.localities p {
     font-size: 1.3em;
+}
+
+.localities span {
+    display: flex;
+    width: 26%;
+    min-width: 150px;
+    border:rgba(128, 128, 128, 0.582) 2px solid;
+    border-radius: 10px;
     cursor: pointer;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .download-request {
+    width: 100%;
     position: relative;
     margin: auto;
     display: flex;
